@@ -1,0 +1,26 @@
+@import '../abstract/variaveis';
+
+.recado {
+    display: flex;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+    align-items: center;
+    .recado-texto {
+        border-left: 3px solid $cor-primaria;
+        padding: 1rem;
+        h3 {
+            font-size: $tamanho-do-texto;
+            color: $cor-primaria;
+        }
+        h4 {
+            font-size: $tamanho-do-texto / 1.5;
+            padding: 1rem;
+            color: $cor-secundaria;
+        }
+        p {
+            font-size: $tamanho-do-texto / 3;
+            color: $cor-secundaria;
+        }
+    }
+}
